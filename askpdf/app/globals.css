@@ -234,3 +234,9 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities{
+  .scrollbar::-webkit-scrollbar-track {
+    background: #0D0D0D; /* or bg-gray-900 */
+  }
+}
